@@ -1,12 +1,11 @@
 import "./global.css";
 import React from "react";
-import { Button, StyleSheet, Text, View } from "react-native";
+import { Button, Text, View } from "react-native";
 import type { SharedValue } from "react-native-reanimated";
 import Animated, {
 	scrollTo,
 	useAnimatedRef,
 	useDerivedValue,
-	useScrollOffset,
 	useSharedValue,
 } from "react-native-reanimated";
 
